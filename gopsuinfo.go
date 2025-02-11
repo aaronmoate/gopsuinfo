@@ -257,9 +257,9 @@ func main() {
 		g = glyphs{graphCPU: []rune("_▁▂▃▄▅▆▇███"), glyphCPU: "", glyphMem: "", glyphTemp: "", glyphUptime: " "}
 	}
 
-	path = "/usr/share/gopsuinfo/icons_light"
+	path = "/home/moate/usr/share/gopsuinfo/icons_light"
 	if *setPtr {
-		path = "/usr/share/gopsuinfo/icons_dark"
+		path = "/home/moate/usr/share/gopsuinfo/icons_dark"
 	}
 
 	output := ""
