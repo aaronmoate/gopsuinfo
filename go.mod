@@ -1,6 +1,6 @@
 module github.com/nwg-piotr/gopsuinfo
 
-go 1.23
+go 1.23.0
 
 require github.com/shirou/gopsutil v3.21.11+incompatible
 
